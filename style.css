@@ -1,6 +1,9 @@
 
+*{
+  margin: 0;
 
-
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap');
 .banner{
     background-image: url('./resources/Banner\ Image.png');
     width: 1160px;
@@ -33,7 +36,7 @@
   
   border-radius: 2px;
   width:1600px ;
-  height: 7335px;
+  height: 1000px;
   margin-right: 100px;
   margin-left: 60px;
   background-position: center;
@@ -46,6 +49,7 @@
     background-color: #fff;
     width: 802.9px;
     height: 500px;
+    
   }
   .content{
     text-align:center;
@@ -61,9 +65,41 @@
 }
 #our{
   font-size: 12px;
+  font-weight:500;
 }
 #all{
   
   font-size: 30px;
   font-weight: 500;
+}
+.templete{
+  background-image: url('./resources/Vectorrr.png');
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-size:cover;
+  
+  width: 1120px;
+  height: 600px;
+}
+.templete-title{
+  font-size: 58px;
+  font-weight: 900;
+  color: #fff;
+  width: 624px;
+}
+#templete-title{
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffffff95;
+  width: 497px;
+}
+#image{
+  width: 319.83px;
+  height: 464.662px;
+  padding: 0.08px  0px 0px 0px;
+}
+.join{
+  margin-top: 40px;
+  border: none;
 }

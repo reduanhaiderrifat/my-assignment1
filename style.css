@@ -28,7 +28,42 @@
     font-size: 42px;
     font-weight: 900;
 }
-   
+.container{
+  background-color: #fff;
+  
+  border-radius: 2px;
+  width:1600px ;
+  height: 7335px;
+  margin-right: 100px;
+  margin-left: 60px;
+  background-position: center;
+}
+  .off{
+    background-image:url('./resources/New\ Year\ Photo.png');
+    
+    margin-left: 50px;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    width: 802.9px;
+    height: 500px;
+  }
+  .content{
+    text-align:center;
+    margin-right: 700px;
+    margin-top: 200px;
+    
+    
+  }
 
-
-
+#off{
+  font-size: 60px;
+  font-weight: 700;
+}
+#our{
+  font-size: 12px;
+}
+#all{
+  
+  font-size: 30px;
+  font-weight: 500;
+}

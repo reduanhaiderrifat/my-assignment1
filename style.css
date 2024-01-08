@@ -246,16 +246,30 @@ background: #F00;
     gap: 20px;
 }
 .maill{
-  background-color: aquamarine;
+  background-color:rgba(255, 192, 203, 0.201);
+ 
 }
 .maill-content{
   text-align: center;
 }
+.we{
+  padding: 22px 212px 38px 212px;
+  /* padding-top: 22px; */
+}
+.as{
+  padding-top: 40px;
+}
+#as{
+  padding-top: 80px;
+}
 .value{
+ 
   padding:80px 200px ;
-  gap: 0;
+  
 }
 #email{
+  font-size: 13px;
+  font-weight: 400;
   border-radius: 50px 0 0 50px;
   padding: 27px 336px 25px 30px;
 }
@@ -268,4 +282,28 @@ background: #F00;
   height: 72px;
   padding:24px 58px ;
 }
+ .footer{
+  background-color: #070211;
+ } 
+.footer-container{
+  display: flex;
+  justify-content: space-around;
+}
+.footer-content{
+  padding-top: 120px;
+  color: white;
+}
+.social-links{
+  text-align: center;
+  padding: 250px 140px 199px 140px;
+ 
+
   
+
+}
+.footer-bottom{
+  display: flex;
+  justify-content: space-around;
+  color: #fff;
+  padding-bottom: 120px;
+}

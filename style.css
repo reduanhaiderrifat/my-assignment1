@@ -10,7 +10,8 @@ body{
     background-image: url('./resources/Banner\ Image.png');
     width: 1160px;
     height: 550px;
-   
+    border-radius: 16px;
+    
     background-size:  cover;
     background-position: right center;
     background-repeat: no-repeat;
@@ -77,6 +78,7 @@ body{
 }
 .templete{
   background-image: url('./resources/Vectorrr.png');
+ 
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -123,4 +125,44 @@ body{
   align-items: center;
   gap: 20px;
 
+}
+.coming-container{
+ 
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  
+ 
+}
+.coming{
+  padding-top: 150px;
+  width:30%;
+}
+.coming >h2{
+  font-size: 28px;
+  font-weight: 700;
+}
+.justify-img{
+  border: 10px solid orangered;
+  border-radius: 463px;
+  background-repeat: no-repeat;
+  align-items: center;
+  padding: 30px;
+  margin:70px;
+ 
+}
+.para{
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(7, 2, 17, 0.60);
+}
+#soon{
+  color: #070211;
+    font-size: 32px;
+    font-weight: 900;
+}
+.happy{
+   padding-top: 43px;
+   width: 140px;
+   height: 140px;
 }

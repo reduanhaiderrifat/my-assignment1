@@ -1,5 +1,7 @@
 
-
+*{
+  margin: 0
+}
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap');
 
@@ -123,7 +125,7 @@ body{
   border-radius: 6px;
   padding: 16px 32px;
   align-items: center;
-  gap: 20px;
+  gap: 40px;
 
 }
 .coming-container{
@@ -142,6 +144,7 @@ body{
   font-size: 28px;
   font-weight: 700;
 }
+
 .justify-img{
   border: 10px solid orangered;
   border-radius: 463px;
@@ -169,11 +172,25 @@ body{
 .holiday-container{
   background-color:#fff;
 }
+.holiday-sale >h1{
+     font-size: 72px;
+     font-weight: 900;
+} 
+.holiday-sale >p{
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+}
+.holiday-sale >h6{
+  font-size: 24px;
+  font-weight: 500;
+}
 .holiday-sale{
   text-align: center;
 }
 .holiday-img{
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 #background{
@@ -182,4 +199,49 @@ body{
   right: 250px;
   padding-top: 50px;
   
+}
+#add{
+  padding-left: 100px;
+}
+.hld{
+
+  background-image: url('./resources/Rectangle\ 2.png');
+  background-repeat: no-repeat;
+  border-radius: 16px 0 16px 16px;
+ 
+  height: 500.52px;
+  width: 100%;
+  
+}
+
+  
+
+#see{
+  width: 320px;
+height: 229px;
+border-radius: 16px 0px 16px 16px;
+background: #F00;
+}
+.bag{
+  background-color: #fff;
+  text-align: left;
+  padding-right: 50%;
+}
+.bag-content{
+  padding-left: 30px;
+}
+.bag-content >h4{
+  
+  font-size: 24px;
+  font-weight: 500;
+}
+.bag-content >h3{
+  font-size: 38px;
+  font-weight: 900;
+
+}
+.bag-img{
+    display: flex;
+    margin: 30px;
+    gap: 20px;
 }

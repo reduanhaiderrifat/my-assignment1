@@ -4,6 +4,10 @@
 
 }
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap');
+
+body{
+  font-family: 'Open Sans', sans-serif;
+}
 .banner{
     background-image: url('./resources/Banner\ Image.png');
     width: 1160px;
@@ -102,4 +106,18 @@
 .join{
   margin-top: 40px;
   border: none;
+  
+  border-radius: 5px;
+  color: white;
+  background-color:black ;
+  font-size:15px ;
+  font-weight: 700;
+}
+.imformation{
+  width: 80%;
+  text-align: center;
+   border: 1px solid;
+   border-color: aqua;
+
+   background-color: bisque;
 }

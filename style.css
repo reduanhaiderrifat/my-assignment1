@@ -245,3 +245,27 @@ background: #F00;
     margin: 30px;
     gap: 20px;
 }
+.maill{
+  background-color: aquamarine;
+}
+.maill-content{
+  text-align: center;
+}
+.value{
+  padding:80px 200px ;
+  gap: 0;
+}
+#email{
+  border-radius: 50px 0 0 50px;
+  padding: 27px 336px 25px 30px;
+}
+#submit{
+  color: #fff;
+  background-color: orangered;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 0 50px 50px 0;
+  height: 72px;
+  padding:24px 58px ;
+}
+  

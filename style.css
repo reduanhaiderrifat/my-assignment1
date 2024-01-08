@@ -166,3 +166,20 @@ body{
    width: 140px;
    height: 140px;
 }
+.holiday-container{
+  background-color:#fff;
+}
+.holiday-sale{
+  text-align: center;
+}
+.holiday-img{
+  display: flex;
+  justify-content: space-between;
+}
+#background{
+
+  position: absolute;
+  right: 250px;
+  padding-top: 50px;
+  
+}

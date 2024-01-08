@@ -1,8 +1,6 @@
 
-*{
-  margin: 0;
 
-}
+
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap');
 
 body{
@@ -32,6 +30,7 @@ body{
     font-weight: 400;
 }
 #content{
+  color: orangered;
     font-size: 42px;
     font-weight: 900;
 }
@@ -81,7 +80,7 @@ body{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-size:cover;
+  background-size:cover; 
   
   width: 1120px;
   height: 600px;
@@ -113,11 +112,15 @@ body{
   font-size:15px ;
   font-weight: 700;
 }
-.imformation{
-  width: 80%;
-  text-align: center;
-   border: 1px solid;
-   border-color: aqua;
+.btn-pro{
+  color: white;
+  background-color: orangered;
+  font-size: 20px;
+  font-weight: 700;
+  border: none;
+  border-radius: 6px;
+  padding: 16px 32px;
+  align-items: center;
+  gap: 20px;
 
-   background-color: bisque;
 }

@@ -1,44 +1,42 @@
-
-
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap');
 
 body{
   font-family: 'Open Sans', sans-serif;
 }
 .banner{
-    background-image: url('./resources/Banner\ Image.png');
+    background-image :url('./resources/Banner\ Image.png');
     width: 1160px;
     height: 550px;
-    border-radius: 16px;
+    border-radius: 16px; 
+    background-blend-mode: darken;
     background-size:  cover;
     background-position: right center;
     background-repeat: no-repeat;
    
 }
-
   .banner-title{
     color: #ffffff;
     display: block;
-    text-align: center;
-    
+    text-align: center;   
   }  
-
-#title{
-  color: rgb(0, 255, 174);
-    padding-top: 170px;
+#title{ 
+    padding-top: 150px;
     font-size: 32px;
     font-weight: 600;
 }
-#content{
-  color: rgba(0, 21, 255, 0.879);
-  padding-left: 290px;
-   width: 50%;
-    font-size: 45px;
+#content{  
+  padding-left: 380px;
+   width: 65%;
+    font-size: 42px;
     font-weight: 900;
 }
 .container{
-  background-color: #fff;
-  
+  background-color: #fff; 
   border-radius: 2px;
   width:1600px ;
   height: 1000px;
@@ -47,21 +45,17 @@ body{
   background-position: center;
 }
   .off{
-    background-image:url('./resources/New\ Year\ Photo.png');
-    
+    background-image:url('./resources/New\ Year\ Photo.png'); 
     margin-left: 50px;
     background-repeat: no-repeat;
     background-color: #fff;
     width: 802.9px;
-    height: 500px;
-    
+    height: 500px;   
   }
   .content{
     text-align:center;
     margin-right: 700px;
-    margin-top: 200px;
-    
-    
+    margin-top: 200px;        
   }
 
 #off{
@@ -73,18 +67,15 @@ body{
   font-weight:500;
 }
 #all{
-  
   font-size: 30px;
   font-weight: 500;
 }
 .templete{
   background-image: url('./resources/Vectorrr.png');
- 
   display: flex;
   justify-content: space-around;
   align-items: center;
   background-size:cover; 
-  
   width: 1120px;
   height: 600px;
 }
@@ -108,7 +99,6 @@ body{
 .join{
   margin-top: 40px;
   border: none;
-  
   border-radius: 5px;
   color: white;
   background-color:black ;
@@ -125,15 +115,11 @@ body{
   padding: 16px 32px;
   align-items: center;
   gap: 40px;
-
 }
 .coming-container{
- 
   display: flex;
   justify-content: space-between;
   background-color: #fff;
-  
- 
 }
 .coming{
   padding-top: 150px;
@@ -143,7 +129,6 @@ body{
   font-size: 28px;
   font-weight: 700;
 }
-
 .justify-img{
   border: 10px solid orangered;
   border-radius: 463px;
@@ -151,7 +136,6 @@ body{
   align-items: center;
   padding: 30px;
   margin:70px;
- 
 }
 .para{
   font-size: 14px;
@@ -170,6 +154,7 @@ body{
 }
 .holiday-container{
   background-color:#fff;
+  padding-top: 30px;
 }
 .holiday-sale >h1{
      font-size: 72px;
@@ -188,44 +173,35 @@ body{
 .holiday-sale{
   text-align: center;
 }
-.holiday-img{
+#gift{
+  position: relative;
+  top: 200px;
+  width: 530px;
+  height:500px;
+}
+#red{
+  border-radius: 16px 0 0 16px;
+  width: 162%;
+  height: 35%;
+}
+#mark{
+  position: relative;
+  width: 250px;
+  bottom: 290px;
+  right: 100px;
+}
+.like{
   display: flex;
-  align-items: center;
-  justify-content: space-between;
 }
-#background{
-
-  position: absolute;
-  right: 250px;
-  padding-top: 50px;
-  
-}
-#add{
-  padding-left: 100px;
-}
-.hld{
-
-  background-image: url('./resources/Rectangle\ 2.png');
-  background-repeat: no-repeat;
-  border-radius: 16px 0 16px 16px;
- 
-  height: 500.52px;
-  width: 100%;
-  
-}
-
-  
-
-#see{
-  width: 320px;
-height: 229px;
-border-radius: 16px 0px 16px 16px;
-background: #F00;
+#pic{
+  position: relative;
+  top:70px
 }
 .bag{
   background-color: #fff;
   text-align: left;
   padding-right: 50%;
+  padding-top: 150px;
 }
 .bag-content{
   padding-left: 30px;
@@ -234,14 +210,12 @@ background: #F00;
   color: rgba(7, 2, 17, 0.6)
 }
 .bag-content >h4{
-  
-  font-size: 24px;
+   font-size: 24px;
   font-weight: 500;
 }
 .bag-content >h3{
   font-size: 38px;
   font-weight: 900;
-
 }
 .bag-img{
     display: flex;
@@ -250,14 +224,12 @@ background: #F00;
 }
 .maill{
   background-color:rgba(255, 192, 203, 0.201);
- 
 }
 .maill-content{
   text-align: center;
 }
 .we{
-  padding: 22px 212px 38px 212px;
-  /* padding-top: 22px; */
+  padding: 22px 212px 38px 212px;  
 }
 .as{
   padding-top: 40px;
@@ -266,9 +238,7 @@ background: #F00;
   padding-top: 80px;
 }
 .value{
- 
   padding:80px 200px ;
-  
 }
 #email{
   font-size: 13px;
@@ -300,10 +270,6 @@ background: #F00;
 .social-links{
   text-align: center;
   padding: 250px 140px 199px 140px;
-  
-
-  
-
 }
 .footer-bottom{
   display: flex;

@@ -13,17 +13,17 @@ body{
     background-image :url('./resources/Banner\ Image.png');
     width: 1160px;
     height: 550px;
-    border-radius: 16px; 
-    background-blend-mode: darken;
+    border-radius: 16px;     
     background-size:  cover;
     background-position: right center;
     background-repeat: no-repeat;
    
 }
+
   .banner-title{
     color: #ffffff;
-    display: block;
-    text-align: center;   
+    display: block; 
+    text-align: center; 
   }  
 #title{ 
     padding-top: 170px;
@@ -281,4 +281,7 @@ body{
   justify-content: space-around;
   color: #fff;
   padding-bottom: 120px;
+}
+.ft{
+  margin-right: 12px;
 }

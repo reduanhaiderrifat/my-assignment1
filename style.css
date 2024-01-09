@@ -281,7 +281,8 @@ body{
   padding-top: 120px;
   color: white;
 }
-#color{
+.column{
+  display: block;
   color: #fff;
   text-decoration: none;
 }
@@ -300,9 +301,7 @@ body{
 .ft{
   margin-right: 12px;
 }
-.column{
-  display: block; 
-}
+
 #social{
   border: 5px solid;
   border-left: none;

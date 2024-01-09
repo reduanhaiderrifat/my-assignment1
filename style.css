@@ -7,7 +7,7 @@
 
 body{
   font-family: 'Open Sans', sans-serif;
-  font-family: 'lato', sans-serif;
+  
 }
 .banner{
     background-image :url('./resources/Banner\ Image.png');
@@ -46,14 +46,7 @@ body{
   margin-left: 60px;
   background-position: center;
 }
-  .off{
-    background-image:url('./resources/New\ Year\ Photo.png'); 
-    margin-left: 50px;
-    background-repeat: no-repeat;
-    background-color: #fff;
-    width: 802.9px;
-    height: 500px;   
-  }
+ 
   .content{
     text-align:center;
     margin-right: 700px;
@@ -71,6 +64,14 @@ body{
 #all{
   font-size: 30px;
   font-weight: 500;
+}
+.off{
+  background-image:url('./resources/New\ Year\ Photo.png'); 
+  margin-left: 50px;
+  background-repeat: no-repeat;
+  background-color: #fff;
+  width: 802.9px;
+  height: 500px;   
 }
 .templete{
   background-image: url('./resources/Vectorrr.png');
@@ -93,7 +94,7 @@ body{
   color: #ffffff95;
   width: 497px;
 }
-#image{
+.image{
   width: 319.83px;
   height: 464.662px;
   padding: 0.08px  0px 0px 0px;
@@ -200,13 +201,20 @@ body{
 }
 #pic{
   position: relative;
-  top:70px
+  top:72px
 }
 .bag{
   background-color: #fff;
   text-align: left;
   padding-right: 50%;
   padding-top: 150px;
+}
+.hover{
+  border: 5px solid white;
+}
+.hover:hover{
+  background-color: red;
+  border-color: red;
 }
 .bag-content{
   padding-left: 30px;

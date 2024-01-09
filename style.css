@@ -117,7 +117,8 @@ body{
   border-radius: 6px;
   padding: 16px 32px;
   align-items: center;
-  gap: 40px;
+  margin-top: 48px;
+  
 }
 .coming-container{
   display: flex;
@@ -284,4 +285,13 @@ body{
 }
 .ft{
   margin-right: 12px;
+}
+#social{
+  border: 5px solid;
+  border-left: none;
+  border-right: none;
+  margin: 150px;
+}
+#social:hover{
+  color: aqua;
 }

@@ -281,8 +281,14 @@ body{
   padding-top: 120px;
   color: white;
 }
+#color{
+  color: #fff;
+  text-decoration: none;
+}
 .social-links{
   text-align: center;
+  position: relative;
+  gap: 20px;
   padding: 250px 140px 199px 140px;
 }
 .footer-bottom{
@@ -293,6 +299,9 @@ body{
 }
 .ft{
   margin-right: 12px;
+}
+.column{
+  display: block; 
 }
 #social{
   border: 5px solid;
